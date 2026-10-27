@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+
+    <title>Registration Form</title>
+
+<body style="margin: 0; font-family: Arial; background: linear-gradient(to right, skyblue, purple);">
+
+    <form style="background-color: white; width: 650px; margin: 50px auto; padding: 30px; border-radius: 10px;">
+
+        <h1 style="color: #222; margin-bottom: 25px;">
+            Registration
+        </h1>
+
+        <!-- Full Name and Username -->
+        <div style="display: flex; gap: 40px;">
+
+            <div style="width: 50%;">
+                <label style="font-weight: bold;">Full Name</label>
+
+                <input type="text"
+                       placeholder="Enter your name"
+                       required
+                       style="width: 100%; padding: 10px; margin-top: 8px; box-sizing: border-box;">
+            </div>
+
+            <div style="width: 50%;">
+                <label style="font-weight: bold;">Username</label>
+
+                <input type="text"
+                       placeholder="Enter your username"
+                       required
+                       style="width: 100%; padding: 10px; margin-top: 8px; box-sizing: border-box;">
+            </div>
+
+        </div>
+
+        <br>
+
+        <!-- Email and Phone -->
+        <div style="display: flex; gap: 40px;">
+
+            <div style="width: 50%;">
+                <label style="font-weight: bold;">Email</label>
+
+                <input type="email"
+                       placeholder="Enter your email"
+                       required
+                       style="width: 100%; padding: 10px; margin-top: 8px; box-sizing: border-box;">
+            </div>
+
+            <div style="width: 50%;">
+                <label style="font-weight: bold;">Phone Number</label>
+
+                <input type="tel"
+                       placeholder="Enter your number"
+                       required
+                       style="width: 100%; padding: 10px; margin-top: 8px; box-sizing: border-box;">
+            </div>
+
+        </div>
+
+        <br>
+
+        <!-- Password and Confirm Password -->
+        <div style="display: flex; gap: 40px;">
+
+            <div style="width: 50%;">
+                <label style="font-weight: bold;">Password</label>
+
+                <input type="password"
+                       placeholder="Enter your password"
+                       required
+                       style="width: 100%; padding: 10px; margin-top: 8px; box-sizing: border-box;">
+            </div>
+
+            <div style="width: 50%;">
+                <label style="font-weight: bold;">Confirm Password</label>
+
+                <input type="password"
+                       placeholder="Confirm your password"
+                       required
+                       style="width: 100%; padding: 10px; margin-top: 8px; box-sizing: border-box;">
+            </div>
+
+        </div>
+
+        <br><br>
+
+        <!-- Gender -->
+        <label style="font-weight: bold; font-size: 18px;">
+            Gender
+        </label>
+
+        <br><br>
+
+        <label>
+            <input type="radio" name="gender">
+            Male
+        </label>
+
+        <label style="margin-left: 100px;">
+            <input type="radio" name="gender">
+            Female
+        </label>
+
+        <label style="margin-left: 100px;">
+            <input type="radio" name="gender">
+            Prefer not to say
+        </label>
+
+        <br><br>
+
+        <!-- Register Button -->
+        <button type="submit"
+                style="width: 100%; padding: 12px; border: none; border-radius: 5px; background: linear-gradient(to right, skyblue, purple); color: white; font-size: 17px; font-weight: bold;">
+            Register
+        </button>
+
+    </form>
+
+</body>
+</html>

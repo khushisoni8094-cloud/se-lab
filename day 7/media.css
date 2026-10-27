@@ -1,0 +1,45 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+     display: flex;
+     gap: 10px;
+}
+
+   .card{
+    flex: 1;
+    background-color: crimson;
+    padding: 30px;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+@media (max-width:768px){
+    .card{
+           font-size: 16px;
+           background-color: burlywood;
+           border-radius: 10px;
+    }
+    
+}
+
+@media(max-width: 600px){
+    .card{
+        font-size: 14px;
+        background: lightskyblue;
+    }
+}
+
+
+@media(min-width:768px) {
+    .card{
+        color: gainsboro;
+        font-weight: 800;
+    }
+    
+}

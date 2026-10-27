@@ -1,0 +1,45 @@
+
+*{
+    background-color: bisque;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#para{
+    background-color: chocolate;
+    color: black;
+}
+
+
+
+
+   .name{
+    background-color: yellow;
+    color: blue;
+    font-size: 24px;
+    font-weight: 700;
+   }
+    
+
+
+
+   .box{
+        height: 200px;
+            width: 200px;
+            border: 10px solid  cornflowerblue;
+            margin-top: 10px;
+            border-radius: 10px;
+   }
+
+
+
+      #main-box{
+
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+      }
